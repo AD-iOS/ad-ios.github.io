@@ -377,11 +377,28 @@ Version: 0.1
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: ./debs/iphoneos-arm64/system/com.pkill.ad_0.1_iphoneos-arm64.deb
+Filename: ./debs/History/iphoneos-arm64/system/com.pkill.ad_0.1_iphoneos-arm64.deb
 Size: 30428
 MD5sum: 0c9f7b2aaf807a4aa5430d9f7c81a7a4
 SHA1: 8e57bbc770f045fb5de32c1c6e7293f370485e77
 SHA256: f8f7cea2c4b9f0204202aef265c256a8a0b7f97f813fda14bf98123ab3fdb736
+Section: System系统
+Description: pkill 一個強大的工具 您可以根據進程名直接殺死這個進程
+ - 具體輸入 pkill -h 後查看
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: pkill
+
+Package: com.pkill.ad
+Version: 0.2
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: ./debs/iphoneos-arm64/system/com.pkill.ad_0.2_iphoneos-arm64.deb
+Size: 30268
+MD5sum: fc923a23b2ba77a2f6d518b52e91edfc
+SHA1: b45b741cce6dba4b06bb869d1ace41e9c5d49613
+SHA256: a14380e44ab41e68d7d166898c7899f456998bfba5e175aa4721852d1a3bfd7e
 Section: System系统
 Description: pkill 一個強大的工具 您可以根據進程名直接殺死這個進程
  - 具體輸入 pkill -h 後查看
