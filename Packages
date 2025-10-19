@@ -240,7 +240,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Pre-Depends: openssh, zsh, unzip
 Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
-Filename: ./debs/iphoneos-arm64/CLI-Tool/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
+Filename: ./debs/History/iphoneos-arm64/CLI-Tool/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
 Size: 7932
 MD5sum: 5bc79dcf1c3b0bbad2f77bf2769b9a00
 SHA1: 9d80798d474e4dd7fab3085b8b7421907315ffd5
@@ -250,6 +250,24 @@ Description: 一款仿Android的ADB的终端插件,<br></br>不过现在和Andro
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS ADB (Apple-iPhone Debug Bridge)
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.adb.sct-ad/js.json
+
+Package: com.adb.sct-ad
+Version: 2.7
+Architecture: iphoneos-arm64
+Maintainer: AD
+Pre-Depends: openssh, zsh, unzip
+Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
+Filename: ./debs/iphoneos-arm64/CLI-Tool/com.adb.sct-ad_2.7_iphoneos-arm64.deb
+Size: 5476
+MD5sum: 1fad6e2e4b51cbfa4a8a781d057fae72
+SHA1: 6600c1eb1c421cdb4c4c4ccebd23b87871f400df
+SHA256: e6b93dc91d5f48b0912bfc224a20688660574aadcbadcde8918d26d0b47ac4cf
+Section: CLI-Tool
+Description: 一款仿Android的ADB的终端插件,<br></br>不过现在和Android的ADB已经有很多区别了,<br></br>下载完成后终端输入adb --help查看完整命令或者查看截图
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS ADB(Apple-iPhone Debug Bridge)
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.adb.sct-ad/js.json
 
 Package: com.arm.10086.announcement.ad
