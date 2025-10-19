@@ -21,7 +21,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://ad-ios.github.io/ad/sileodepiction/com.adb.sct-ad/Screenshot_01.png"
+                            "url": "https://ad-ios.github.io/ad/sileodepiction/com.adb.sct-ad/Screenshot_02.png"
                         },
                     ]
                 },
@@ -53,7 +53,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.6-39",
+                    "text": "2.7",
                     "title": "最新版本"
                 },
                 {
@@ -63,7 +63,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 09 月 24 日",
+                    "text": "2025 年 10 月 19 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -78,7 +78,18 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "2.6-39",
+                    "title": "2.7更新日志: ",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "將reboot真重啟修改成launchctl reboot userspace重啟用戶空間 將sbreload重啟SpringBoard修改成killall -HUP SpringBoard <br> 移除更新日志和開發者日誌, 現在更新日誌可以再sileo中查看 <br> 去掉沒有用的注釋降低存儲空間佔用 <br> 優化了部分邏輯, 添加了 adb --h 命令來查看幫助(adb --h 命令等同於adb --help 命令) <br> 移除中文提示,改用純英文(可能還會有部分中文提示) <br> 優化了部分功能",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.6-39更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -89,7 +100,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "2.6",
+                    "title": "2.6更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -100,7 +111,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "2.5",
+                    "title": "2.5更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -111,7 +122,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "2.4",
+                    "title": "2.4更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -122,7 +133,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "2.3",
+                    "title": "2.3更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -133,7 +144,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "2.2",
+                    "title": "2.2更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -144,7 +155,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "2.1",
+                    "title": "2.1更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -155,7 +166,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "2.0",
+                    "title": "2.0更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -166,7 +177,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.5",
+                    "title": "1.5更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -177,7 +188,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.0",
+                    "title": "1.0更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -188,7 +199,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "0.5",
+                    "title": "0.5更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -199,7 +210,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "0.2",
+                    "title": "0.2更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -210,7 +221,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "0.1",
+                    "title": "0.1更新日志: ",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
