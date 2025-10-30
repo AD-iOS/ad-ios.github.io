@@ -344,14 +344,13 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 603.1MB
 Filename: ./debs/iphoneos-arm64/Theos/com.empty-theos.ad_1.0_iphoneos-arm64.deb
-Size: 16729560
-MD5sum: 12a4c3e0884ad737719b988135cc8585
-SHA1: b15af00b1694036161256f1369663505e931c427
-SHA256: ce4eaeca1d296b4cc8d08088ef59b6b8c41c39f6c4d6a76f4bcf5f931f412999
+Size: 16729656
+MD5sum: 01461ba11a75579dcb1bd03e02fba373
+SHA1: 26268b6af24ff12b4553e3fcd12e03d233303b97
+SHA256: f513048f9f9c1a7297a2ca09ae87dd03974874f6e3dd0b3614c21ab1587f9e78
 Section: Theos/SDK
 Description: iOS Theos
   - iOS Theos 沒有SDK的theos,需要自己補齊SDK
-  - 很想吐槽的一點就是 all 在 sileo 中不是通用的意思
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS Theos
@@ -362,14 +361,13 @@ Architecture: iphoneos-arm64e
 Maintainer: AD
 Installed-Size: 603.1MB
 Filename: ./debs/iphoneos-arm64e/Theos/com.empty-theos.ad_1.0_iphoneos-arm64e.deb
-Size: 16728328
-MD5sum: 7584adc9f1758dc0b1949eb646d6de95
-SHA1: 970c804ea6a9d66bc0b09db6d425f19ff6b7833e
-SHA256: 1db5c619aa617d9a0c2ff9a9c4dfa28f5de52e0950188592e8f3028d23415109
+Size: 16727872
+MD5sum: dac0ead3e5bff07647e2563fd49052f0
+SHA1: 094a0e473c50beded8258ec3c98e525af9ca1b53
+SHA256: a8aacdf07c8f1b2eba8db88aab1a89b40274eebd10ba856ba79f1cfc86a4b23a
 Section: Theos/SDK
 Description: iOS Theos
   - iOS Theos 沒有SDK的theos,需要自己補齊SDK
-  - 很想吐槽的一點就是 all 在 sileo 不是通用的意思
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS Theos
@@ -380,14 +378,13 @@ Architecture: iphoneos-arm
 Maintainer: AD
 Installed-Size: 603.1MB
 Filename: ./debs/iphoneos-arm/Theos/com.empty-theos.ad_1.0_iphoneos-arm.deb
-Size: 16728328
-MD5sum: 4ba66d28fac5db8047c229c8f6f86949
-SHA1: 453f58d322622e5f7825b1b36eb0ae84a3d3bc19
-SHA256: c332dd897bc7a385c0329f1cfa22d0dc211521a1c1b1a3ae7da895371d03aac3
+Size: 16727676
+MD5sum: abf1bd5d16c35f891a633e7b71262316
+SHA1: b30a4137bb32f04459d22aa7bb7d5f40a003fbcf
+SHA256: 59fd515fc2082add02731609e53576be243cb6a37ee3b09fba2b26a71aaccaf5
 Section: Theos/SDK
 Description: iOS Theos
   - iOS Theos 沒有SDK的theos,需要自己補齊SDK
-  - 很想吐槽的一點就是 all 在 sileo 不是通用的意思
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS Theos
@@ -408,6 +405,22 @@ Description: Unlock the clean Bilibili.解锁干净的哔哩哔哩,由LF将Dylib
 Author: Netskao
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: BiliPurify 哔哩哔哩净化
+
+Package: com.ntonia.themes.Black
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Ntonia
+Depends: com.spark.snowboard
+Filename: ./debs/iphoneos-arm64/Theme/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
+Size: 1805744
+MD5sum: 919ef445e9d121970ba4dbbf556a48c6
+SHA1: df49588c121b23d44094c42ba6c8b66da33d3339
+SHA256: 8966370be97227bfdf72dc5ca878512d8b486aac0e2c00ac064ffb1490791273
+Section: Themes主题
+Description: 一款主題,由 AD 打包成 deb 創作者是 Ntonia
+Author: Ntonia
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: Ntonia—黑季伯主题
 
 Package: com.pkill.ad
 Version: 0.1
