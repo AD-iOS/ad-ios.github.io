@@ -411,13 +411,30 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: Ntonia
 Depends: com.spark.snowboard
-Filename: ./debs/iphoneos-arm64/Theme/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
+Filename: ./debs/History/iphoneos-arm64/Themes/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
 Size: 1805744
 MD5sum: 919ef445e9d121970ba4dbbf556a48c6
 SHA1: df49588c121b23d44094c42ba6c8b66da33d3339
 SHA256: 8966370be97227bfdf72dc5ca878512d8b486aac0e2c00ac064ffb1490791273
 Section: Themes主题
 Description: 一款主題,由 AD 打包成 deb 創作者是 Ntonia
+Author: Ntonia
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: Ntonia—黑季伯主题
+
+Package: com.ntonia.themes.Black
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Ntonia
+Depends: com.spark.snowboard
+Filename: ./debs/iphoneos-arm64/Theme/com.ntonia.themes.Black_1.0.1_iphoneos-arm64.deb
+Size: 1805888
+MD5sum: bac298363062ca2fb7917a8992b2961f
+SHA1: 98f54bc05644406df3e2eae800dc6d4a56db0e96
+SHA256: 95910a874b8c04264acb2a11c8f8590dc20f9a3bbd6454cb844c5b6798092099
+Section: Themes主题
+Description: 一款主題,由 AD 打包成 deb 創作者是 Ntonia
+ - 修復一個小問題, 將滑雪板中顯示的 'iOS26' 修改為 'Ntonia—黑季伯主题' 這是原作者疏忽導致的目前修復了
 Author: Ntonia
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: Ntonia—黑季伯主题
