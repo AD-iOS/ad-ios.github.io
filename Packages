@@ -207,7 +207,7 @@ Version: 1.0.2
 Architecture: all
 Maintainer: AD
 Depends: firmware (>= 14.0)
-Filename: ./debs/all/AD/System/com.AD.home.ad_1.0.2_all.deb
+Filename: ./debs/History/all/AD/System/com.AD.home.ad_1.0.2_all.deb
 Size: 279056
 MD5sum: 3b650fc5a06e7ec04bb6e92094dc4b18
 SHA1: 6e86a2d486041657a0bb2bea44c1f782f5b176d4
@@ -217,6 +217,26 @@ Description: AD 的家目錄, 這是 AD 工作兼家目錄用的
  - 主要是開發 iOS 插件時使用的, 自帶了一點點 xun 內核頭文件
  - 添加了 entitlements 目錄 可以存放 entitlements.plist 或者 entitlements.xml 權限文件
  - 如果需要可以添加 AD="/var/AD/UsrLb" 為環境變量後 使用 cd $AD 來進入家目錄
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: AD的家目錄
+
+Package: com.AD.home.ad
+Version: 1.1.0
+Architecture: all
+Maintainer: AD
+Depends: firmware (>= 14.0)
+Filename: ./debs/all/AD/System/com.AD.home.ad_1.1.0_all.deb
+Size: 716116
+MD5sum: 0cb310def69c01625c07ed31267d8935
+SHA1: 7abbbc9202f9ef36ccc58d5a74397510164903ee
+SHA256: c162bf06bb946269c723658641e19d4fc2414357c3c06521b40bd18cde55c320
+Section: System系统
+Description: AD 的家目錄, 這是 AD 工作兼家目錄用的
+ - 主要是開發 iOS 插件時使用的, 自帶了一點點 xun 內核頭文件
+ - 添加了 entitlements 目錄 可以存放 entitlements.plist 或者 entitlements.xml 權限文件
+ - 如果需要可以添加 AD="/var/AD/UsrLb" 為環境變量後 使用 cd $AD 來進入家目錄
+ - 修復了因為 sys 內核頭文件目錄和用戶層頭文件衝突的問題 sys 目前頭文件存放在 include/kernel/中
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: AD的家目錄
