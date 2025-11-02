@@ -142,6 +142,44 @@ Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
+Package: com.15sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 601.0MB
+Depends: com.empty-theos.ad
+Filename: ./debs/iphoneos-arm64/Theos/com.15sdk.ad_1.0_iphoneos-arm64.deb
+Size: 45584356
+MD5sum: 19cc6f04344c6f7f5a86d967cc499222
+SHA1: ed4df5dc97eebad6abe986753c3c8a6a3037ec4e
+SHA256: f3844a791e043956d6c9927be31335f7595eaad47babd4292f62b1e5a3606911
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 15 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
+Package: com.16sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 874.0MB
+Depends: com.empty-theos.ad
+Filename: ./debs/iphoneos-arm64/Theos/com.16sdk.ad_1.0_iphoneos-arm64.deb
+Size: 71722428
+MD5sum: 645384b452086619cef72406ed01b3f1
+SHA1: e7c515b4136dad830fc0f18b8526194a46407ccf
+SHA256: 398ac302025d91d435a34aaa28644e1dacbe2ecec60f75163fb03ddaf60a16f8
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 16 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
 Package: com.AD.10086
 Version: 1.0
 Architecture: all
