@@ -105,7 +105,7 @@ Version: 1.5
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./debs/iphoneos-arm64/system/A1-v1.5(15001)-Release.deb
+Filename: ./debs/History/iphoneos-arm64/system/A1-v1.5(15001)-Release.deb
 Size: 16984
 MD5sum: 9ca3a50628c7eee818f0c391d6bcc5e2
 SHA1: 2a17345e93b15698a02101759c159229e9d8f00d
@@ -142,43 +142,49 @@ Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
-Package: com.15sdk.ad
-Version: 1.0
+Package: a1
+Version: 1.6
 Architecture: iphoneos-arm64
-Maintainer: AD
-Installed-Size: 601.0MB
-Depends: com.empty-theos.ad
-Filename: ./debs/iphoneos-arm64/Theos/com.15sdk.ad_1.0_iphoneos-arm64.deb
-Size: 45584356
-MD5sum: 19cc6f04344c6f7f5a86d967cc499222
-SHA1: ed4df5dc97eebad6abe986753c3c8a6a3037ec4e
-SHA256: f3844a791e043956d6c9927be31335f7595eaad47babd4292f62b1e5a3606911
-Section: Theos/SDK
-Description: iOS Theos SDK
-  - iOS 15 系統的 SDK 需要 iOS Theos 才能使用
-  - 源裡有Theos
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS SDK
-
-Package: com.16sdk.ad
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: AD
-Installed-Size: 874.0MB
-Depends: com.empty-theos.ad
-Filename: ./debs/iphoneos-arm64/Theos/com.16sdk.ad_1.0_iphoneos-arm64.deb
-Size: 71722428
-MD5sum: 645384b452086619cef72406ed01b3f1
-SHA1: e7c515b4136dad830fc0f18b8526194a46407ccf
-SHA256: 398ac302025d91d435a34aaa28644e1dacbe2ecec60f75163fb03ddaf60a16f8
-Section: Theos/SDK
-Description: iOS Theos SDK
-  - iOS 16 系統的 SDK 需要 iOS Theos 才能使用
-  - 源裡有Theos
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS SDK
+Maintainer: LF，AD
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
+Filename: ./debs/iphoneos-arm64/system/a1_1.6_iphoneos-arm64.deb
+Size: 18516
+MD5sum: 3bb1573d619395d468ef8406b83c895c
+SHA1: 794e7892667238054dd41e63b36211b9c7746a30
+SHA256: b417e622ea7b1aaa21dc3491c34a92c91cb59a34639b716b75e164a21f0872cb
+Section: System系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 只支持Rootless
+  - 终端输入a1手动执行，输入a1ctl打开管理面板(Beta)😉
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: com.AD.10086
 Version: 1.0
@@ -352,12 +358,13 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: AD
 Filename: ./debs/iphoneos-arm/10086/com.arm.10086.announcement.ad_1.0_iphoneos-arm.deb
-Size: 772
-MD5sum: 2ab137fbd966f9b7ac79fa78aefc4f51
-SHA1: f778d56ce22427fc4e5d76cb280ada4bdcaa411b
-SHA256: 06ada0b0f47789588592ae2e0bffaf62527ddbbc59426d6629cc638736b23801
+Size: 840
+MD5sum: a169e45a99c4135baafc68af6c8598c6
+SHA1: 85207efa9f4409683179876e509969e4b4c9876a
+SHA256: 371111b23fdc986caeee5d1d5d1577c9932689a18aa0e86bd4b4d58d583248ce
 Section: 10086公告
-Description: 很抱歉本源不支持 arm 架構的設備了
+Description: 很抱歉本源不支持 rootful 越獄了
+ - 部分插件可能我仍然會繼續兼容 rootful 越獄, 但是大部分插件應該不會了
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: 公告
@@ -436,10 +443,10 @@ Architecture: iphoneos-arm
 Maintainer: AD
 Installed-Size: 603.1MB
 Filename: ./debs/iphoneos-arm/Theos/com.empty-theos.ad_1.0_iphoneos-arm.deb
-Size: 16727676
-MD5sum: abf1bd5d16c35f891a633e7b71262316
-SHA1: b30a4137bb32f04459d22aa7bb7d5f40a003fbcf
-SHA256: 59fd515fc2082add02731609e53576be243cb6a37ee3b09fba2b26a71aaccaf5
+Size: 16728980
+MD5sum: e37e59630cd2ede6296ddd1a0c0a3529
+SHA1: 31d87d7666ea820a9f6bb4f4ad14a563a58b6a21
+SHA256: 8640d5625d4dc1ad6f99e612b40d726cc2814910bdd7980182e70ce49f0de395
 Section: Theos/SDK
 Description: iOS Theos
   - iOS Theos 沒有SDK的theos,需要自己補齊SDK
