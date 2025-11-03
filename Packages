@@ -205,6 +205,25 @@ Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS SDK
 
+Package: com.12sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Installed-Size: 136.1MB
+Depends: com.empty-theos.ad
+Filename: ./debs/iphoneos-arm/Theos/com.12sdk.ad_1.0_iphoneos-arm.deb
+Size: 15566960
+MD5sum: ed6ae9bb8d6215bdf24e6e7e72bec8a3
+SHA1: f840a6e5a5d9d259d81d7b2932058c9bcf9a7f07
+SHA256: b81adff12daacf6c780470e021bd68ed055a455a8f42d12244db99ad381686a4
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 12 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
 Package: com.13sdk.ad
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -224,6 +243,26 @@ Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS SDK
 
+Package: com.14sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 1.2GB
+Depends: com.empty-theos.ad
+Filename: ./debs/iphoneos-arm64/Theos/com.14sdk.ad_1.0_iphoneos-arm64.deb
+Size: 100359908
+MD5sum: 9b9838227cff45a3910d9bb928d6834a
+SHA1: 08fbf5e9a0e38eeac6e6761e26094dadad1fb302
+SHA256: feeaec3a37e60d2f71d5335756d689d62bb2f270c4b03d39aa078042f1e6fae6
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 14 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+  - 注: iOS 14 系統的 SDK 有些大(1.2GB)所以安裝時需要確保有足夠的存儲空間
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
 Package: com.15sdk.ad
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -238,6 +277,44 @@ SHA256: f3844a791e043956d6c9927be31335f7595eaad47babd4292f62b1e5a3606911
 Section: Theos/SDK
 Description: iOS Theos SDK
   - iOS 15 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
+Package: com.15sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Installed-Size: 601.0MB
+Depends: com.empty-theos.ad
+Filename: ./debs/iphoneos-arm/Theos/com.15sdk.ad_1.0_iphoneos-arm.deb
+Size: 45306400
+MD5sum: 75bc8922da7a2c1cd952ba8e58ce7ec0
+SHA1: acf9b0ead17a75a9737ff5e78aaa0ae91b8affb9
+SHA256: 4099bc0f05c83daee9f40016e530929a90c367306a2c18a886f46fe7ecb33be5
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 15 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
+Package: com.16sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 874.0MB
+Depends: com.empty-theos.ad
+Filename: ./debs/iphoneos-arm64/Theos/com.16sdk.ad_1.0_iphoneos-arm64.deb
+Size: 71722428
+MD5sum: 645384b452086619cef72406ed01b3f1
+SHA1: e7c515b4136dad830fc0f18b8526194a46407ccf
+SHA256: 398ac302025d91d435a34aaa28644e1dacbe2ecec60f75163fb03ddaf60a16f8
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 16 系統的 SDK 需要 iOS Theos 才能使用
   - 源裡有Theos
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
@@ -262,6 +339,25 @@ Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS SDK
 
+Package: com.26sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Installed-Size: 262.8MB
+Depends: com.empty-theos.ad
+Filename: ./debs/iphoneos-arm/Theos/com.26sdk.ad_1.0_iphoneos-arm.deb
+Size: 24604028
+MD5sum: 606b7e2c250c3b5a831376440f2d7e66
+SHA1: 4b0267c8ac0b1c0a0dc8d6d755460379d31455b3
+SHA256: a29b62e307594eca09534b774a735049c89146e64850750f6293fd284486f404
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 26 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
 Package: com.9-11sdk.ad
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -273,6 +369,25 @@ Size: 20759212
 MD5sum: 1c85a4cce15e486876bb2aa7396e7935
 SHA1: 6803e28a198b2d48a679a121ffe2305afd8b8ab5
 SHA256: ef766185448472f596a2ad3636984014e5289f1ba295a4683449bc1e623cfffa
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 9-11 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
+Package: com.9-11sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Installed-Size: 175.4MB
+Depends: com.empty-theos.ad
+Filename: ./debs/iphoneos-arm/Theos/com.9-11sdk.ad_1.0_iphoneos-arm.deb
+Size: 20683796
+MD5sum: 14374edee0528d42dde9df88af16c8f1
+SHA1: 86ec8c8f780d50d1e5f50edcf3a0db9370b682e9
+SHA256: ec2b124565e3f59e5e26019169b05dead1dd68e3be94c541e8c338b407e50eaa
 Section: Theos/SDK
 Description: iOS Theos SDK
   - iOS 9-11 系統的 SDK 需要 iOS Theos 才能使用
