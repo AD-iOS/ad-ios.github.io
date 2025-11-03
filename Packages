@@ -205,6 +205,44 @@ Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS SDK
 
+Package: com.13sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 685.9MB
+Depends: com.empty-theos.ad
+Filename: ./debs/iphoneos-arm64/Theos/com.13sdk.ad_1.0_iphoneos-arm64.deb
+Size: 61994776
+MD5sum: 1b9a86a19fae7feb6bbd220ff59151d7
+SHA1: 72c68c0a48eb73dc956f1eb73935da8f1cd73079
+SHA256: b0158e71cbb37498d11cfc85c194eba6c76c508110d9bfc1bcb2e41fec2da44d
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 13 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
+Package: com.15sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 601.0MB
+Depends: com.empty-theos.ad
+Filename: ./debs/iphoneos-arm64/Theos/com.15sdk.ad_1.0_iphoneos-arm64.deb
+Size: 45584356
+MD5sum: 19cc6f04344c6f7f5a86d967cc499222
+SHA1: ed4df5dc97eebad6abe986753c3c8a6a3037ec4e
+SHA256: f3844a791e043956d6c9927be31335f7595eaad47babd4292f62b1e5a3606911
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 15 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
 Package: com.26sdk.ad
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -219,6 +257,25 @@ SHA256: e426eb2f6d92fdfcf6bced24db97cda3631cfbbb17ad1cc76e03449614ae31c3
 Section: Theos/SDK
 Description: iOS Theos SDK
   - iOS 26 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
+Package: com.9-11sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 175.4MB
+Depends: com.empty-theos.ad
+Filename: ./debs/iphoneos-arm64/Theos/com.9-11sdk.ad_1.0_iphoneos-arm64.deb
+Size: 20759212
+MD5sum: 1c85a4cce15e486876bb2aa7396e7935
+SHA1: 6803e28a198b2d48a679a121ffe2305afd8b8ab5
+SHA256: ef766185448472f596a2ad3636984014e5289f1ba295a4683449bc1e623cfffa
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 9-11 系統的 SDK 需要 iOS Theos 才能使用
   - 源裡有Theos
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
