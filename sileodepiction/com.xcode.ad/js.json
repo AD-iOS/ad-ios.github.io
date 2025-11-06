@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "**iOS Xcode 命令行工具** \n\n適用於 C、C++、swift、Objective-C、Objective-C++ 的編譯\n\n 0.3 正式版版本有問題 QQ 反饋: 3897069329 終端輸入 sdk-switch 後開始選擇iOS SDK 選擇一個和你iOS版本一樣或者接近的iOS SDK\n\n輸入: xcode 或者 xcode++ --help查看命令幫助\n\n如果有問題可以添加 QQ: 3897069329來反饋\n\n想要快速獲取 xcode beta 版的可以添加QQ群: 1030152896獲取",
+                    "markdown": "**iOS Xcode 命令行工具** \n\n適用於 C、C++、swift、Objective-C、Objective-C++ 的編譯\n\n 有問題 QQ 反饋: 3897069329 終端輸入 sdk-switch 後開始選擇iOS SDK 選擇一個和你iOS版本一樣或者接近的iOS SDK\n\n輸入: xcode 或者 xcode++ --help查看命令幫助\n\n如果有問題可以添加 QQ: 3897069329來反饋\n\n想要快速獲取 xcode beta 版的可以添加QQ群: 1030152896獲取",
                     "useRawFormat": false
                 },
                 {
@@ -20,7 +20,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://ad-ios.github.io/ad/sileodepiction/com.xcode.ad/Screenshot_02.png"
+                            "url": "https://ad-ios.github.io/ad/sileodepiction/com.xcode.ad/Screenshot_03.png"
                         }
                     ]
                 },
@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.3.7-14",
+                    "text": "0.4.4-79 alpha",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 10 月 25 日",
+                    "text": "2025 年 11 月 6 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -82,7 +82,29 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "0.3.5-16alpha更新日志",
+                    "title": "0.4.4-79 alpha更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "添加了 -g, -w, -Wall, -W!, -W+, -Oallerr 選項, 具體請輸入xcode --help 或者 xcode++ --help 查看 <br> 優化了部分功能,調整了Swift的部分代碼塊使其健壯性更加好",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.4.1-14 alpha更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "調整了部分目錄結構 <br> 自帶了 iOS15-17 系統中的部分 SDK <br> 優化了部分功能",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.5-16 alpha更新日志",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },

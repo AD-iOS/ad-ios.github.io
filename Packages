@@ -480,7 +480,7 @@ Version: 1.1.0
 Architecture: all
 Maintainer: AD
 Depends: firmware (>= 14.0)
-Filename: ./debs/all/AD/System/com.AD.home.ad_1.1.0_all.deb
+Filename: ./debs/History/all/AD/System/com.AD.home.ad_1.1.0_all.deb
 Size: 716116
 MD5sum: 0cb310def69c01625c07ed31267d8935
 SHA1: 7abbbc9202f9ef36ccc58d5a74397510164903ee
@@ -491,6 +491,27 @@ Description: AD 的家目錄, 這是 AD 工作兼家目錄用的
  - 添加了 entitlements 目錄 可以存放 entitlements.plist 或者 entitlements.xml 權限文件
  - 如果需要可以添加 AD="/var/AD/UsrLb" 為環境變量後 使用 cd $AD 來進入家目錄
  - 修復了因為 sys 內核頭文件目錄和用戶層頭文件衝突的問題 sys 目前頭文件存放在 include/kernel/中
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: AD的家目錄
+
+Package: com.AD.home.ad
+Version: 1.1.1
+Architecture: all
+Maintainer: AD
+Depends: firmware (>= 14.0)
+Filename: ./debs/all/AD/System/com.AD.home.ad_1.1.1_all.deb
+Size: 879584
+MD5sum: c9753132bdd65530e8d43c868ed4b83e
+SHA1: 1e744b9760f883423f8014cf2212063a70e09953
+SHA256: 706c734625bc635676593e2d71fa533ddd81ea2cbc9effca9e282952ba74ccf0
+Section: System系统
+Description: AD 的家目錄, 這是 AD 工作兼家目錄用的
+ - 主要是開發 iOS 插件時使用的, 自帶了一點點 xun 內核頭文件
+ - 添加了 entitlements 目錄 可以存放 entitlements.plist 或者 entitlements.xml 權限文件
+ - 如果需要可以添加 AD="/var/AD/UsrLb" 為環境變量後 使用 cd $AD 來進入家目錄
+ - 修復了因為 sys 內核頭文件目錄和用戶層頭文件衝突的問題 sys 目前頭文件存放在 include/kernel/中
+ - 移除了我開發 iOS Xcode 時殘留的 iOS Xcode 源文件
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: AD的家目錄
@@ -612,6 +633,23 @@ Description: Add value to protect your battery life.添加值以保护您的电�
 Author: @Spor0nix 凑合哥
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: BatteryMaster1380 省电大师
+
+Package: com.discpulimited.ad
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 236
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/system/com.discpulimited.ad_1.0.0_iphoneos-arm64.deb
+Size: 43580
+MD5sum: 8ac195f042567f5922512f45c12ef773
+SHA1: 54d9db6e2ba73755b8da4b5b77789f91f7a5133e
+SHA256: 7664a7adfa19f9fc186aa2c840ea9c0a11ab9faa7635244b9cb3a245ab1ce36a
+Section: System系统
+Description: Dis temperature is limited to the CPU frequency.防止温度限制CPU频率
+ - 當前維護者是 AD 創作者目前不知道是誰
+Author: null
+Name: DisCPU Limited
 
 Package: com.empty-theos.ad
 Version: 1.0
