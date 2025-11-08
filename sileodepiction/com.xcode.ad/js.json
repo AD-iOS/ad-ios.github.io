@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "**iOS Xcode 命令行工具** \n\n適用於 C、C++、swift、Objective-C、Objective-C++ 的編譯\n\n 有問題 QQ 反饋: 3897069329 終端輸入 sdk-switch 後開始選擇iOS SDK 選擇一個和你iOS版本一樣或者接近的iOS SDK\n\n輸入: xcode 或者 xcode++ --help查看命令幫助\n\n如果有問題可以添加 QQ: 3897069329來反饋\n\n想要快速獲取 xcode beta 版的可以添加QQ群: 1030152896獲取",
+                    "markdown": "**iOS Xcode 命令行工具** \n\n適用於 C、C++、swift、Objective-C、Objective-C++ 的編譯\n\n 有問題 QQ 反饋: 3897069329 終端輸入 sdk-switch 後開始選擇iOS SDK 選擇一個和你iOS版本一樣或者接近的iOS SDK\n\n輸入: xcode 或者 xcode++ --help查看命令幫助\n\n如果有問題可以添加 QQ: 3897069329來反饋\n\n想要快速獲取 xcode beta 或者 alpha 版的可以添加QQ群: 1030152896獲取 \n\n 注意: iOS Xcode 從來沒有發佈過正式版, 所有宣稱自己有正式版 iOS Xcode 的均為騙子",
                     "useRawFormat": false
                 },
                 {
@@ -20,7 +20,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://ad-ios.github.io/ad/sileodepiction/com.xcode.ad/Screenshot_03.png"
+                            "url": "https://ad-ios.github.io/ad/sileodepiction/com.xcode.ad/Screenshot_04.png"
                         }
                     ]
                 },
@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.4.4-79 alpha",
+                    "text": "0.5.13-2 alpha",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 11 月 6 日",
+                    "text": "2025 年 11 月 8 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.13-2 alpha更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "添加了 '-fat', '-arm64e' 命令 <br> -swift 模式不支持 '-fat' <br> '-fat' 命令的作用: 可以生成一個 同時兼容 'arm64' 和 'arm64e' 的可執行二進制文件, 他和 'clang -arch arm64 -arch arm64e' 是等價的 <br> 修復了部分 bug, 刪減了沒有用的代碼, 優化了部分代碼使其健壯性更好",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.4.4-79 alpha更新日志",
