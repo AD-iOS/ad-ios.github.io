@@ -14,6 +14,12 @@
    "title": "源公告",
    "package": "com.ad.10086",
    "hideShadow": false
+  },
+  {
+   "url": "https://ad-ios.github.io/ad/sileodepiction/Default/adb_top_1.png",
+   "title": "A1",
+   "package": "a1",
+   "hideShadow": false
   }
  ]
 }
