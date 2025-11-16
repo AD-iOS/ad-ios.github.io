@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+{
+                    "class": "DepictionSubheaderView",
+                    "title": "1.7更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "补全依赖项与路径，避免无法运行, 更新，完善a1ctl <br> 加入更多注释，帮助萌新小白",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "1.6更新日志",
