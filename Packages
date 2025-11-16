@@ -191,12 +191,12 @@ Version: 1.7
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk
-Filename: ./debs/iphoneos-arm64/system/A1-v1.7(17002)-Release.deb
-Size: 18144
-MD5sum: af2cb6b56c37e7ae04cd5f0be9921d1b
-SHA1: 1fe6ba09096001bfd260c6c303ba1cefdd6a6d21
-SHA256: 4a7078c53e4dea1bc7380aa8bbd4e14cf32dfc5a969e4d997703b0a956edb6c1
-Section: Systems系统
+Filename: ./debs/iphoneos-arm64/system/a1_1.7_iphoneos-arm64.deb
+Size: 18128
+MD5sum: 06174147cd394f45536e41ed5a9cbe67
+SHA1: 8cebc7d9b39c06d8aa2f038aacdf4ea32c88fb2a
+SHA256: 7897295b12661afee4467b8eee97b56866909e563a235e58eae73155d0de2997
+Section: System系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
