@@ -1014,3 +1014,22 @@ Icon: https://axs66.github.io/repo/icon/vnodebypass.png
 Name: vnodebypass-next
 Sileodepiction: https://raw.githubusercontent.com/ad-ios/ad/main/sileodepiction/vnodebypassnext/js.json
 
+Package: xc.lzsxcl.o2pro
+Version: 17.26.1
+Architecture: iphoneos-arm64
+Maintainer: lzsxcl
+Installed-Size: 30360
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/iphoneos-arm64/lzsxcl/xc.lzsxcl.o2pro_17.26.1_iphoneos-arm64.deb
+Size: 15947698
+MD5sum: 42a30ce7de6501f28b7e9e83ae25bf94
+SHA1: 85e26dd31e50116c4901658b593ee5232702936b
+SHA256: 5eeda6dd22e1f4b4789cbab984da5d9efe8a42ec6f9c883d88731449b28529c8
+Section: Tweaks
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro
+Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
+
