@@ -326,15 +326,15 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: Saily越狱商店
 
 Package: com.AD.repo.ad
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
-Filename: ./pool/main/arm64/c/com.AD.repo.ad_1.0.1_iphoneos-arm64.deb
-Size: 1016
-MD5sum: e569db28537578704505270faf015cca
-SHA1: 46b0a2f6c2f08aee848085f16668ba2284b5dbcc
-SHA256: c40d0aaab9f6132e5c499c903a475653e03ce28fa4c840cf60b3d965bf797822
+Filename: ./pool/main/arm64/c/com.AD.repo.ad_1.0.2_iphoneos-arm64.deb
+Size: 1132
+MD5sum: 4afa5724fe3ef23976f7282b78f26cf9
+SHA1: d5da593c7ca80d00a1b5f8176eb794e7afbcd9d3
+SHA256: 320f5dee63841b24ea0e6b39ecd682206e0e701259ae3b63513d43d13c120781
 Section: System系统
 Description: 添加 AD 的 發行版軟件源倉庫
  - 安裝完成後需要重啟一下 sileo 來刷新軟件源
