@@ -6,21 +6,21 @@ Version: 1.0
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e all
 Components: main
 Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件
-Date: Mon, 17 Nov 2025 23:55:04 +0800
+Date: Mon, 17 Nov 2025 23:58:45 +0800
 MD5Sum:
  098a0f477409c5945da6e6f97a794521 3909 main/binary-iphoneos-arm/Packages
  c37e2d7e3e6531144d6162387fecf5a2 1456 main/binary-iphoneos-arm/Packages.xz
  523fcac570ab3dbaa3b38599a0d15a3b 1676 main/binary-iphoneos-arm/Packages.bz2
- d319a96acd0241542ac8a46a9928d275 1519 main/binary-iphoneos-arm/Packages.gz
+ ede49d23ec1f1edf372baba7aa793346 1519 main/binary-iphoneos-arm/Packages.gz
  b6737e2b884f0b3bcc473c719e3994d2 28850 main/binary-iphoneos-arm64/Packages
  4b742a35a7f58e65da9a30c36600c79a 9536 main/binary-iphoneos-arm64/Packages.xz
  2faa5edd3157068fd185c4d30276ec3e 9898 main/binary-iphoneos-arm64/Packages.bz2
- 4295b1b73799a1e10a79b9da9fc11aed 10752 main/binary-iphoneos-arm64/Packages.gz
+ a995e29609c1bfa38263a7cc46adf4cf 10752 main/binary-iphoneos-arm64/Packages.gz
  19c7a954e8191b7ae2a77d8e2da83633 1084 main/binary-iphoneos-arm64e/Packages
  4edaf6368c19edd423e0f737f63a7213 744 main/binary-iphoneos-arm64e/Packages.xz
  8a1f31e8dafec5d3f9d3125ce4227020 787 main/binary-iphoneos-arm64e/Packages.bz2
- 078bcf398c8e489c9c06b3de37102f00 718 main/binary-iphoneos-arm64e/Packages.gz
- 7251dc8320d21d5de388e144c0bb763a 3155 main/binary-iphoneos-all/Packages
- f169767967ef993a561423b86d069d60 1652 main/binary-iphoneos-all/Packages.xz
- d2ccffff68065a374b6a8f21c36118ca 1805 main/binary-iphoneos-all/Packages.bz2
- 945c9b35fa40fa08c72d8646960d8dbc 1707 main/binary-iphoneos-all/Packages.gz
+ afacd2125640d39cbd4fcbf4fa58a16c 718 main/binary-iphoneos-arm64e/Packages.gz
+ 2f16e723c7cd419bcfaeae3be8bfaadb 3283 main/binary-iphoneos-all/Packages
+ 144051895ba473fa813685973def3b41 1704 main/binary-iphoneos-all/Packages.xz
+ dc3de2804f9fffed60fb3b0a0d2591a2 1872 main/binary-iphoneos-all/Packages.bz2
+ 682e64ca89cd465a9d1594982fa51efa 1764 main/binary-iphoneos-all/Packages.gz

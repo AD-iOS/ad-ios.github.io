@@ -519,14 +519,15 @@ Architecture: all
 Maintainer: iOS-AD
 Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0), iOS (>=999.0)
 Filename: ./pool/main/binary-all/c/com.AD.10086.Notice_1.0_all.deb
-Size: 952
-MD5sum: 27ce8f7da6dc15f2f93f4810aee73c41
-SHA1: 8f666a527483883bf8d94e39f8b265f7bae83691
-SHA256: ae56d3f61245f8b27725c00a219d3ec58d5d3a539aab109447bfad5e3feefdd4
+Size: 1020
+MD5sum: 6b9dd27d4592e927175f45c6fa43a47e
+SHA1: fe4b30e3ba1cdee611d8f8e8bfea8346b38a46e2
+SHA256: 9f9d1397eee8f5292a8ae99dbca5fac16f34a74e7e560b5feda7d5089986f46a
 Section: 源公告
 Priority: required
 Description: 本源已正式升級成發行版軟件源倉庫
  - 如果您有需要可以直接下載 AD Repo 這個插件 來直接添加發行版
+ - 當然你依舊可以通過: https://ad-ios.github.io/ad/ 來添加我的軟件源倉庫, 因為我有做扁平化的兼容
    - 交流群：
    - QQ1群：1030152896
    - QQ2群：837894083
