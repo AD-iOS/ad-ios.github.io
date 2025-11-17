@@ -74,6 +74,22 @@ Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS SDK
 
+Package: com.AD.repo.ad
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: AD
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
+Filename: ./pool/main/arm/c/com.AD.repo.ad_1.0.1_iphoneos-arm.deb
+Size: 984
+MD5sum: 66af99c8a6c34e630c632ed96cc2161b
+SHA1: 22263807220b01698a2de512e09305b4051da5f3
+SHA256: fb836901b431907d72a3e79cbaefa539846b6fc1e2a6bcec5da4fbcde131ff55
+Section: System系统
+Description: 添加 AD 的 發行版軟件源倉庫
+ - 安裝完成後需要重啟一下 sileo 來刷新軟件源
+Author: AD
+Name: AD Repo
+
 Package: com.arm.10086.announcement.ad
 Version: 1.0
 Architecture: iphoneos-arm

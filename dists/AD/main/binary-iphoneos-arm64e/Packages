@@ -1,9 +1,25 @@
+Package: com.AD.repo.ad
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: AD
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
+Filename: ./pool/main/arm64e/c/com.AD.repo.ad_1.0.1_iphoneos-arm64e.deb
+Size: 988
+MD5sum: 3b0c5db6e69219875d7a136a651533af
+SHA1: 8202d25bdafa2a9cd15a5a006a164eea0b2b0a00
+SHA256: d230919fa062e37bf06f146d8cdcc1429711a20f588356824c70a6d8194a513d
+Section: System系统
+Description: 添加 AD 的 發行版軟件源倉庫
+ - 安裝完成後需要重啟一下 sileo 來刷新軟件源
+Author: AD
+Name: AD Repo
+
 Package: com.empty-theos.ad
 Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: AD
 Installed-Size: 603.1MB
-Filename: ./pool/main/arm64e/com.empty-theos.ad_1.0_iphoneos-arm64e.deb
+Filename: ./pool/main/arm64e/c/com.empty-theos.ad_1.0_iphoneos-arm64e.deb
 Size: 16727872
 MD5sum: dac0ead3e5bff07647e2563fd49052f0
 SHA1: 094a0e473c50beded8258ec3c98e525af9ca1b53

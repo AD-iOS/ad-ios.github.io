@@ -513,6 +513,28 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS-AD源公告
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
 
+Package: com.AD.10086.Notice
+Version: 1.0
+Architecture: all
+Maintainer: iOS-AD
+Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0), iOS (>=999.0)
+Filename: ./pool/main/binary-all/c/com.AD.10086.Notice_1.0_all.deb
+Size: 952
+MD5sum: 27ce8f7da6dc15f2f93f4810aee73c41
+SHA1: 8f666a527483883bf8d94e39f8b265f7bae83691
+SHA256: ae56d3f61245f8b27725c00a219d3ec58d5d3a539aab109447bfad5e3feefdd4
+Section: 源公告
+Priority: required
+Description: 本源已正式升級成發行版軟件源倉庫
+ - 如果您有需要可以直接下載 AD Repo 這個插件 來直接添加發行版
+   - 交流群：
+   - QQ1群：1030152896
+   - QQ2群：837894083
+   - QQ文件群: 1027358518
+Author: iOS-AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS AD 源公告
+
 Package: com.AD.MemoryOptimization
 Version: 1.0.5
 Architecture: iphoneos-arm64
@@ -605,6 +627,54 @@ Description: AD 的家目錄, 這是 AD 工作兼家目錄用的
 Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: AD的家目錄
+
+Package: com.AD.repo.ad
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
+Filename: ./pool/main/iphoneos-arm64/c/com.AD.repo.ad_1.0.1_iphoneos-arm64.deb
+Size: 1016
+MD5sum: e569db28537578704505270faf015cca
+SHA1: 46b0a2f6c2f08aee848085f16668ba2284b5dbcc
+SHA256: c40d0aaab9f6132e5c499c903a475653e03ce28fa4c840cf60b3d965bf797822
+Section: System系统
+Description: 添加 AD 的 發行版軟件源倉庫
+ - 安裝完成後需要重啟一下 sileo 來刷新軟件源
+Author: AD
+Name: AD Repo
+
+Package: com.AD.repo.ad
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: AD
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
+Filename: ./pool/main/iphoneos-arm64e/c/com.AD.repo.ad_1.0.1_iphoneos-arm64e.deb
+Size: 988
+MD5sum: 3b0c5db6e69219875d7a136a651533af
+SHA1: 8202d25bdafa2a9cd15a5a006a164eea0b2b0a00
+SHA256: d230919fa062e37bf06f146d8cdcc1429711a20f588356824c70a6d8194a513d
+Section: System系统
+Description: 添加 AD 的 發行版軟件源倉庫
+ - 安裝完成後需要重啟一下 sileo 來刷新軟件源
+Author: AD
+Name: AD Repo
+
+Package: com.AD.repo.ad
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: AD
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
+Filename: ./pool/main/iphoneos-arm/c/com.AD.repo.ad_1.0.1_iphoneos-arm.deb
+Size: 984
+MD5sum: 66af99c8a6c34e630c632ed96cc2161b
+SHA1: 22263807220b01698a2de512e09305b4051da5f3
+SHA256: fb836901b431907d72a3e79cbaefa539846b6fc1e2a6bcec5da4fbcde131ff55
+Section: System系统
+Description: 添加 AD 的 發行版軟件源倉庫
+ - 安裝完成後需要重啟一下 sileo 來刷新軟件源
+Author: AD
+Name: AD Repo
 
 Package: com.AD.virtualmemory
 Version: 2.0
@@ -781,7 +851,7 @@ Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: AD
 Installed-Size: 603.1MB
-Filename: ./pool/main/iphoneos-arm64e/com.empty-theos.ad_1.0_iphoneos-arm64e.deb
+Filename: ./pool/main/iphoneos-arm64e/c/com.empty-theos.ad_1.0_iphoneos-arm64e.deb
 Size: 16727872
 MD5sum: dac0ead3e5bff07647e2563fd49052f0
 SHA1: 094a0e473c50beded8258ec3c98e525af9ca1b53

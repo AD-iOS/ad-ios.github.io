@@ -25,6 +25,28 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS-AD源公告
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
 
+Package: com.AD.10086.Notice
+Version: 1.0
+Architecture: all
+Maintainer: iOS-AD
+Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0), iOS (>=999.0)
+Filename: ./pool/main/all/c/com.AD.10086.Notice_1.0_all.deb
+Size: 952
+MD5sum: 27ce8f7da6dc15f2f93f4810aee73c41
+SHA1: 8f666a527483883bf8d94e39f8b265f7bae83691
+SHA256: ae56d3f61245f8b27725c00a219d3ec58d5d3a539aab109447bfad5e3feefdd4
+Section: 源公告
+Priority: required
+Description: 本源已正式升級成發行版軟件源倉庫
+ - 如果您有需要可以直接下載 AD Repo 這個插件 來直接添加發行版
+   - 交流群：
+   - QQ1群：1030152896
+   - QQ2群：837894083
+   - QQ文件群: 1027358518
+Author: iOS-AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS AD 源公告
+
 Package: com.AD.home.ad
 Version: 1.1.1
 Architecture: all
