@@ -1,0 +1,17 @@
+Package: com.empty-theos.ad
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: AD
+Installed-Size: 603.1MB
+Filename: ./pool/main/arm64e/com.empty-theos.ad_1.0_iphoneos-arm64e.deb
+Size: 16727872
+MD5sum: dac0ead3e5bff07647e2563fd49052f0
+SHA1: 094a0e473c50beded8258ec3c98e525af9ca1b53
+SHA256: a8aacdf07c8f1b2eba8db88aab1a89b40274eebd10ba856ba79f1cfc86a4b23a
+Section: Theos/SDK
+Description: iOS Theos
+  - iOS Theos 沒有SDK的theos,需要自己補齊SDK
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS Theos
+

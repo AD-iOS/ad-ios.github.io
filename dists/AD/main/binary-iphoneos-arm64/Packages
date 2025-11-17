@@ -3,7 +3,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: bash
-Filename: ./pool/main/iphoneos-arm64/1/1688SHFonts_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/1/1688SHFonts_1.0_iphoneos-arm64.deb
 Size: 5805712
 MD5sum: 08066dfb319eea6967cfc3b431422f60
 SHA1: 8f6e18d3a49ade7f60184f7ecf0577480873ae02
@@ -27,7 +27,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
-Filename: ./pool/main/iphoneos-arm64/c/com.DYFont_arm64.deb
+Filename: ./pool/main/arm64/c/com.DYFont_arm64.deb
 Size: 8768764
 MD5sum: a1dfd124de965841db168aeb84345cc3
 SHA1: 0696b65e9f7dcb374df7de2f944d03deba9cb56b
@@ -42,7 +42,7 @@ Package: TrollStor
 Version: 7.25
 Architecture: iphoneos-arm64
 Maintainer: AD
-Filename: ./pool/main/iphoneos-arm64/T/TrollStor_7.25_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/T/TrollStor_7.25_iphoneos-arm64.deb
 Size: 3460016
 MD5sum: 7292882fbe5355fc9a5877016cd62624
 SHA1: 61c88144cf71cfcbec3f865a30213457c5cad1a1
@@ -57,7 +57,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pool/main/iphoneos-arm64/W/WatermelonBar_1.2_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/W/WatermelonBar_1.2_iphoneos-arm64.deb
 Size: 286884
 MD5sum: 7084ef77a0470882dfd9a094c819a540
 SHA1: c9a618cc682f2f2b467cc945554bb1da3b196fd0
@@ -69,43 +69,11 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: WatermelonBar
 
 Package: a1
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: AD
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./pool/main/history/iphoneos-arm64/a/a1_1.3_iphoneos-arm64.deb
-Size: 10260
-MD5sum: d69b68c2be980cbda8d923fc86e7ed47
-SHA1: 94b144c1d94ae44528778639c0001e5cbd310c4e
-SHA256: 63e8c9c19416b7707f312920c004ae2d6980b155647778e335769dad3b214620
-Section: System系统
-Description: Adjust Jetsam and kernel parameters to optimize background task performance.
-  优化 Jetsam 和内核参数以提升后台任务性能。
-  - Lowers priority of useless processes to improve system fluidity.
-    降低无用进程优先级，提高系统流畅性。
-  - Extends compatibility with more apps in this verison.
-    此版本扩展了更多应用的兼容性。
-  - Fixes path errors (grep/awk/sysctl issues).
-    修复路径错误（grep/awk/sysctl 问题）。
-  - Adds postrm script for cleanup.
-    新增卸载清理脚本（postrm）。
-  - Prevents log accumulation.
-    防止日志堆积。
-1.3:
-  - Added postrm script | 新增卸载清理脚本
-  - Fixed path errors (grep/awk/sysctl) | 修复路径错误（grep/awk/sysctl）
-  - Extended app compatibility list | 扩展应用兼容列表
-  - Added log rotation to prevent accumulation | 新增日志轮转防止堆积
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-
-Package: a1
 Version: 1.5
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./pool/main/history/iphoneos-arm64/A/A1-v1.5(15001)-Release.deb
+Filename: ./pool/main/arm64/A/A1-v1.5(15001)-Release.deb
 Size: 16984
 MD5sum: 9ca3a50628c7eee818f0c391d6bcc5e2
 SHA1: 2a17345e93b15698a02101759c159229e9d8f00d
@@ -137,92 +105,6 @@ Description: Optimize Jetsam and kernel parameters to enhance background task pe
   - 修改postinst与postrm
   - 去除a1、a1laucher的.sh后缀
   - 增加多个内核优化
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
-Version: 1.5
-Architecture: iphoneos-arm64
-Maintainer: LF，AD
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./pool/main/iphoneos-arm64/A/A1-v1.5(15001)-Release.deb
-Size: 16984
-MD5sum: 9ca3a50628c7eee818f0c391d6bcc5e2
-SHA1: 2a17345e93b15698a02101759c159229e9d8f00d
-SHA256: d26c9f1ad7c12ae8bd4aebdba7e154a94df70a722f96522048703d238f817f23
-Section: System系统
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 1.5更新日志:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
-Version: 1.6
-Architecture: iphoneos-arm64
-Maintainer: LF，AD
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./pool/main/history/iphoneos-arm64/a/a1_1.6_iphoneos-arm64.deb
-Size: 18516
-MD5sum: 3bb1573d619395d468ef8406b83c895c
-SHA1: 794e7892667238054dd41e63b36211b9c7746a30
-SHA256: b417e622ea7b1aaa21dc3491c34a92c91cb59a34639b716b75e164a21f0872cb
-Section: System系统
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 只支持Rootless
-  - 终端输入a1手动执行，输入a1ctl打开管理面板(Beta)😉
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.6:
-  -修复了路径bug
-  -修正了命令行工具的位置
-  -加入更加适合大家的内核配置（感谢飘散的烟）
-  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
-  -修复了postinst的路径问题，去除了postrm
 Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
@@ -233,7 +115,7 @@ Version: 1.7
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk
-Filename: ./pool/main/iphoneos-arm64/a/a1_1.7_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/a/a1_1.7_iphoneos-arm64.deb
 Size: 18128
 MD5sum: 06174147cd394f45536e41ed5a9cbe67
 SHA1: 8cebc7d9b39c06d8aa2f038aacdf4ea32c88fb2a
@@ -282,30 +164,11 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 136.1MB
 Depends: com.empty-theos.ad
-Filename: ./pool/main/iphoneos-arm64/c/com.12sdk.ad_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.12sdk.ad_1.0_iphoneos-arm64.deb
 Size: 15643428
 MD5sum: c079aeb7ac12f52a9ad40808b6f31c93
 SHA1: 66129e3d6d5b542df446c9e9212eba51aa55481e
 SHA256: 5bf644b863481d7aefeab1cb96ea2f0b1d77fd2fd643d24b7f39a4b328e2b48f
-Section: Theos/SDK
-Description: iOS Theos SDK
-  - iOS 12 系統的 SDK 需要 iOS Theos 才能使用
-  - 源裡有Theos
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS SDK
-
-Package: com.12sdk.ad
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: AD
-Installed-Size: 136.1MB
-Depends: com.empty-theos.ad
-Filename: ./pool/main/iphoneos-arm/c/com.12sdk.ad_1.0_iphoneos-arm.deb
-Size: 15566960
-MD5sum: ed6ae9bb8d6215bdf24e6e7e72bec8a3
-SHA1: f840a6e5a5d9d259d81d7b2932058c9bcf9a7f07
-SHA256: b81adff12daacf6c780470e021bd68ed055a455a8f42d12244db99ad381686a4
 Section: Theos/SDK
 Description: iOS Theos SDK
   - iOS 12 系統的 SDK 需要 iOS Theos 才能使用
@@ -320,7 +183,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 685.9MB
 Depends: com.empty-theos.ad
-Filename: ./pool/main/iphoneos-arm64/c/com.13sdk.ad_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.13sdk.ad_1.0_iphoneos-arm64.deb
 Size: 61994776
 MD5sum: 1b9a86a19fae7feb6bbd220ff59151d7
 SHA1: 72c68c0a48eb73dc956f1eb73935da8f1cd73079
@@ -339,7 +202,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 1.2GB
 Depends: com.empty-theos.ad
-Filename: ./pool/main/iphoneos-arm64/c/com.14sdk.ad_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.14sdk.ad_1.0_iphoneos-arm64.deb
 Size: 100359908
 MD5sum: 9b9838227cff45a3910d9bb928d6834a
 SHA1: 08fbf5e9a0e38eeac6e6761e26094dadad1fb302
@@ -359,30 +222,11 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 601.0MB
 Depends: com.empty-theos.ad
-Filename: ./pool/main/iphoneos-arm64/c/com.15sdk.ad_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.15sdk.ad_1.0_iphoneos-arm64.deb
 Size: 45584356
 MD5sum: 19cc6f04344c6f7f5a86d967cc499222
 SHA1: ed4df5dc97eebad6abe986753c3c8a6a3037ec4e
 SHA256: f3844a791e043956d6c9927be31335f7595eaad47babd4292f62b1e5a3606911
-Section: Theos/SDK
-Description: iOS Theos SDK
-  - iOS 15 系統的 SDK 需要 iOS Theos 才能使用
-  - 源裡有Theos
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS SDK
-
-Package: com.15sdk.ad
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: AD
-Installed-Size: 601.0MB
-Depends: com.empty-theos.ad
-Filename: ./pool/main/iphoneos-arm/c/com.15sdk.ad_1.0_iphoneos-arm.deb
-Size: 45306400
-MD5sum: 75bc8922da7a2c1cd952ba8e58ce7ec0
-SHA1: acf9b0ead17a75a9737ff5e78aaa0ae91b8affb9
-SHA256: 4099bc0f05c83daee9f40016e530929a90c367306a2c18a886f46fe7ecb33be5
 Section: Theos/SDK
 Description: iOS Theos SDK
   - iOS 15 系統的 SDK 需要 iOS Theos 才能使用
@@ -397,7 +241,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 874.0MB
 Depends: com.empty-theos.ad
-Filename: ./pool/main/iphoneos-arm64/c/com.16sdk.ad_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.16sdk.ad_1.0_iphoneos-arm64.deb
 Size: 71722428
 MD5sum: 645384b452086619cef72406ed01b3f1
 SHA1: e7c515b4136dad830fc0f18b8526194a46407ccf
@@ -416,7 +260,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 262.8MB
 Depends: com.empty-theos.ad
-Filename: ./pool/main/iphoneos-arm64/c/com.26sdk.ad_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.26sdk.ad_1.0_iphoneos-arm64.deb
 Size: 24509792
 MD5sum: 50766dd7451aa5647c64e4cbae23426a
 SHA1: 9a19eb010b4a8d1c84038b587fb1fc33ec2870a0
@@ -429,32 +273,13 @@ Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS SDK
 
-Package: com.26sdk.ad
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: AD
-Installed-Size: 262.8MB
-Depends: com.empty-theos.ad
-Filename: ./pool/main/iphoneos-arm/c/com.26sdk.ad_1.0_iphoneos-arm.deb
-Size: 24604028
-MD5sum: 606b7e2c250c3b5a831376440f2d7e66
-SHA1: 4b0267c8ac0b1c0a0dc8d6d755460379d31455b3
-SHA256: a29b62e307594eca09534b774a735049c89146e64850750f6293fd284486f404
-Section: Theos/SDK
-Description: iOS Theos SDK
-  - iOS 26 系統的 SDK 需要 iOS Theos 才能使用
-  - 源裡有Theos
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS SDK
-
 Package: com.9-11sdk.ad
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 175.4MB
 Depends: com.empty-theos.ad
-Filename: ./pool/main/iphoneos-arm64/c/com.9-11sdk.ad_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.9-11sdk.ad_1.0_iphoneos-arm64.deb
 Size: 20759212
 MD5sum: 1c85a4cce15e486876bb2aa7396e7935
 SHA1: 6803e28a198b2d48a679a121ffe2305afd8b8ab5
@@ -467,52 +292,6 @@ Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS SDK
 
-Package: com.9-11sdk.ad
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: AD
-Installed-Size: 175.4MB
-Depends: com.empty-theos.ad
-Filename: ./pool/main/iphoneos-arm/c/com.9-11sdk.ad_1.0_iphoneos-arm.deb
-Size: 20683796
-MD5sum: 14374edee0528d42dde9df88af16c8f1
-SHA1: 86ec8c8f780d50d1e5f50edcf3a0db9370b682e9
-SHA256: ec2b124565e3f59e5e26019169b05dead1dd68e3be94c541e8c338b407e50eaa
-Section: Theos/SDK
-Description: iOS Theos SDK
-  - iOS 9-11 系統的 SDK 需要 iOS Theos 才能使用
-  - 源裡有Theos
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS SDK
-
-Package: com.AD.10086
-Version: 1.0
-Architecture: all
-Maintainer: iOS-AD
-Depends: ios (>= 999.0), firmware (>= 99.0), iPadOS (>=999.0)
-Filename: ./pool/main/binary-all/c/com.AD.10086_1.0_all.deb
-Size: 1312
-MD5sum: 36cd7c0b36b54d70dc7c7c56e4b06240
-SHA1: 01c1b783f370a78a75128db280512c1e457ffb84
-SHA256: 2c00c435a49eed30a13b11ecac27ab7030e37c4d915deddb4d24c553d2188ac9
-Section: 源公告
-Priority: required
-Description: iOS-AD源官方公告。
-  - 声明一下：本源只是将网上作者分享的插件、交流群群友做的插件、以及源主做的插件上传到本源。
-  - 其中网上作者发现的插件和群友做的插件未做任何修改。
-  - 部分插件标识符和作者插件一致导致显示问题，这是Cydia/Sileo的默认规则导致（先添加谁的源就会显示谁的），并非我们劫持插件。
-  - 若本源的部分插件或者软件安装后无法使用的话可以添加搬运工源(byg.iosios.net)去下载对应的版本或者去其他源下载对应的版本或者可以联系源主去修复。
-  - 因为源是GitHub托管的所以服务器在美国，遇到下载问题请尝试：切换VPN或者更换网络环境。
-  - 交流群：
-   - QQ1群：1030152896
-   - QQ2群：837894083
-   - QQ文件群: 1027358518
-Author: iOS-AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS-AD源公告
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
-
 Package: com.AD.MemoryOptimization
 Version: 1.0.5
 Architecture: iphoneos-arm64
@@ -520,7 +299,7 @@ Maintainer: AD
 Installed-Size: 162
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: zp.stopautolaunchapps
-Filename: ./pool/main/iphoneos-arm64/c/com.AD.MemoryOptimization_1.0.5_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.AD.MemoryOptimization_1.0.5_iphoneos-arm64.deb
 Size: 3804
 MD5sum: 8daab8c14c322f03192a5cacf7f72f4d
 SHA1: f9a23a2bb09714d0ec0fe8774d90429f0d0e4d94
@@ -536,7 +315,7 @@ Version: 3.0
 Architecture: iphoneos-arm64
 Maintainer: AD <3897069329>
 Depends: firmware (>= 15.0)
-Filename: ./pool/main/iphoneos-arm64/c/com.AD.Saily_3.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.AD.Saily_3.0_iphoneos-arm64.deb
 Size: 3402288
 MD5sum: ab3f12a49eb3c48e1f76b70fe530beb9
 SHA1: 03e3cd6d7bdb6b49b5b948f95fa3f056ee1229fa
@@ -546,72 +325,12 @@ Description: Saily一种新的现代越狱商店
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: Saily越狱商店
 
-Package: com.AD.home.ad
-Version: 1.0.2
-Architecture: all
-Maintainer: AD
-Depends: firmware (>= 14.0)
-Filename: ./pool/main/history/binary-all/c/com.AD.home.ad_1.0.2_all.deb
-Size: 279056
-MD5sum: 3b650fc5a06e7ec04bb6e92094dc4b18
-SHA1: 6e86a2d486041657a0bb2bea44c1f782f5b176d4
-SHA256: 9b2f091e9bb1e534acec211a0613da91321cce697d17c6925145c725f6852880
-Section: System系统
-Description: AD 的家目錄, 這是 AD 工作兼家目錄用的
- - 主要是開發 iOS 插件時使用的, 自帶了一點點 xun 內核頭文件
- - 添加了 entitlements 目錄 可以存放 entitlements.plist 或者 entitlements.xml 權限文件
- - 如果需要可以添加 AD="/var/AD/UsrLb" 為環境變量後 使用 cd $AD 來進入家目錄
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: AD的家目錄
-
-Package: com.AD.home.ad
-Version: 1.1.0
-Architecture: all
-Maintainer: AD
-Depends: firmware (>= 14.0)
-Filename: ./pool/main/history/binary-all/c/com.AD.home.ad_1.1.0_all.deb
-Size: 716116
-MD5sum: 0cb310def69c01625c07ed31267d8935
-SHA1: 7abbbc9202f9ef36ccc58d5a74397510164903ee
-SHA256: c162bf06bb946269c723658641e19d4fc2414357c3c06521b40bd18cde55c320
-Section: System系统
-Description: AD 的家目錄, 這是 AD 工作兼家目錄用的
- - 主要是開發 iOS 插件時使用的, 自帶了一點點 xun 內核頭文件
- - 添加了 entitlements 目錄 可以存放 entitlements.plist 或者 entitlements.xml 權限文件
- - 如果需要可以添加 AD="/var/AD/UsrLb" 為環境變量後 使用 cd $AD 來進入家目錄
- - 修復了因為 sys 內核頭文件目錄和用戶層頭文件衝突的問題 sys 目前頭文件存放在 include/kernel/中
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: AD的家目錄
-
-Package: com.AD.home.ad
-Version: 1.1.1
-Architecture: all
-Maintainer: AD
-Depends: firmware (>= 14.0)
-Filename: ./pool/main/binary-all/c/com.AD.home.ad_1.1.1_all.deb
-Size: 879584
-MD5sum: c9753132bdd65530e8d43c868ed4b83e
-SHA1: 1e744b9760f883423f8014cf2212063a70e09953
-SHA256: 706c734625bc635676593e2d71fa533ddd81ea2cbc9effca9e282952ba74ccf0
-Section: System系统
-Description: AD 的家目錄, 這是 AD 工作兼家目錄用的
- - 主要是開發 iOS 插件時使用的, 自帶了一點點 xun 內核頭文件
- - 添加了 entitlements 目錄 可以存放 entitlements.plist 或者 entitlements.xml 權限文件
- - 如果需要可以添加 AD="/var/AD/UsrLb" 為環境變量後 使用 cd $AD 來進入家目錄
- - 修復了因為 sys 內核頭文件目錄和用戶層頭文件衝突的問題 sys 目前頭文件存放在 include/kernel/中
- - 移除了我開發 iOS Xcode 時殘留的 iOS Xcode 源文件
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: AD的家目錄
-
 Package: com.AD.virtualmemory
 Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
-Filename: ./pool/main/iphoneos-arm64/c/com.AD.virtualmemory_2.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.AD.virtualmemory_2.0_iphoneos-arm64.deb
 Size: 2016
 MD5sum: 11d5ee02203fbf6733e1b752b6bd5fd9
 SHA1: d7f5bb778a2fbe396f034f90849c4502ea6533f6
@@ -627,7 +346,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: ./pool/main/iphoneos-arm64/c/com.Dopamine.themes_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.Dopamine.themes_1.0_iphoneos-arm64.deb
 Size: 2136
 MD5sum: be59fb460c126c52b342ed2a0dcedb87
 SHA1: 3290f005f928f205e972c7e59f00565976956bb5
@@ -644,25 +363,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Pre-Depends: openssh, zsh, unzip
 Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
-Filename: ./pool/main/history/iphoneos-arm64/c/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
-Size: 7932
-MD5sum: 5bc79dcf1c3b0bbad2f77bf2769b9a00
-SHA1: 9d80798d474e4dd7fab3085b8b7421907315ffd5
-SHA256: 68bcb336ce0a4f38191af36590007d9575b02a07e4fddfb2abf5406b1b88406e
-Section: CLI-Tool
-Description: 一款仿Android的ADB的终端插件,<br></br>不过现在和Android的ADB已经有很多区别了,<br></br>下载完成后终端输入adb --help查看完整命令或者查看截图
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS ADB (Apple-iPhone Debug Bridge)
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.adb.sct-ad/js.json
-
-Package: com.adb.sct-ad
-Version: 2.6-39
-Architecture: iphoneos-arm64
-Maintainer: AD
-Pre-Depends: openssh, zsh, unzip
-Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
-Filename: ./pool/main/iphoneos-arm64/c/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
 Size: 7932
 MD5sum: 5bc79dcf1c3b0bbad2f77bf2769b9a00
 SHA1: 9d80798d474e4dd7fab3085b8b7421907315ffd5
@@ -680,7 +381,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Pre-Depends: openssh, zsh, unzip
 Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
-Filename: ./pool/main/iphoneos-arm64/c/com.adb.sct-ad_2.7_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.adb.sct-ad_2.7_iphoneos-arm64.deb
 Size: 5344
 MD5sum: 99e5fa843b00b12b1d31d08c7af88a0a
 SHA1: 6c7a54847b00658c40138401c1058f2fd5e94b34
@@ -692,28 +393,12 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS ADB(Apple-iPhone Debug Bridge)
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/com.adb.sct-ad/js.json
 
-Package: com.arm.10086.announcement.ad
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: AD
-Filename: ./pool/main/iphoneos-arm/c/com.arm.10086.announcement.ad_1.0_iphoneos-arm.deb
-Size: 840
-MD5sum: a169e45a99c4135baafc68af6c8598c6
-SHA1: 85207efa9f4409683179876e509969e4b4c9876a
-SHA256: 371111b23fdc986caeee5d1d5d1577c9932689a18aa0e86bd4b4d58d583248ce
-Section: 10086公告
-Description: 很抱歉本源不支持 rootful 越獄了
- - 部分插件可能我仍然會繼續兼容 rootful 越獄, 但是大部分插件應該不會了
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: 公告
-
 Package: com.build.ipa.filza.ad
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: iOS-AD
 Depends: firmware (>= 15.0)
-Filename: ./pool/main/iphoneos-arm64/c/com.build.ipa.filza.ad_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.build.ipa.filza.ad_1.0_iphoneos-arm64.deb
 Size: 1416
 MD5sum: 923f8f02a9b07bfdb81f6dfe8425f60f
 SHA1: 5bc3679a33e68d611d97b7e317ee9a0fd84f520e
@@ -731,7 +416,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: mobilesubstrate
-Filename: ./pool/main/iphoneos-arm64/c/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
 Size: 39492
 MD5sum: 17de146d3818370716efb37b9daf62f2
 SHA1: 0e2b99aeaa458ac5efa8519649505d767da202c6
@@ -748,7 +433,7 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 236
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./pool/main/iphoneos-arm64/c/com.discpulimited.ad_1.0.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.discpulimited.ad_1.0.0_iphoneos-arm64.deb
 Size: 43580
 MD5sum: 8ac195f042567f5922512f45c12ef773
 SHA1: 54d9db6e2ba73755b8da4b5b77789f91f7a5133e
@@ -764,45 +449,11 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Installed-Size: 603.1MB
-Filename: ./pool/main/iphoneos-arm64/c/com.empty-theos.ad_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.empty-theos.ad_1.0_iphoneos-arm64.deb
 Size: 16729656
 MD5sum: 01461ba11a75579dcb1bd03e02fba373
 SHA1: 26268b6af24ff12b4553e3fcd12e03d233303b97
 SHA256: f513048f9f9c1a7297a2ca09ae87dd03974874f6e3dd0b3614c21ab1587f9e78
-Section: Theos/SDK
-Description: iOS Theos
-  - iOS Theos 沒有SDK的theos,需要自己補齊SDK
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS Theos
-
-Package: com.empty-theos.ad
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: AD
-Installed-Size: 603.1MB
-Filename: ./pool/main/iphoneos-arm64e/com.empty-theos.ad_1.0_iphoneos-arm64e.deb
-Size: 16727872
-MD5sum: dac0ead3e5bff07647e2563fd49052f0
-SHA1: 094a0e473c50beded8258ec3c98e525af9ca1b53
-SHA256: a8aacdf07c8f1b2eba8db88aab1a89b40274eebd10ba856ba79f1cfc86a4b23a
-Section: Theos/SDK
-Description: iOS Theos
-  - iOS Theos 沒有SDK的theos,需要自己補齊SDK
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS Theos
-
-Package: com.empty-theos.ad
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: AD
-Installed-Size: 603.1MB
-Filename: ./pool/main/iphoneos-arm/c/com.empty-theos.ad_1.0_iphoneos-arm.deb
-Size: 16728980
-MD5sum: e37e59630cd2ede6296ddd1a0c0a3529
-SHA1: 31d87d7666ea820a9f6bb4f4ad14a563a58b6a21
-SHA256: 8640d5625d4dc1ad6f99e612b40d726cc2814910bdd7980182e70ce49f0de395
 Section: Theos/SDK
 Description: iOS Theos
   - iOS Theos 沒有SDK的theos,需要自己補齊SDK
@@ -816,7 +467,7 @@ Architecture: iphoneos-arm64
 Maintainer: Netskao
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./pool/main/iphoneos-arm64/c/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
 Size: 6708128
 MD5sum: d70aeac3d4d056ba9774b301eff4ea0a
 SHA1: 57d34fd41fd42111a70d9315f47dff64f5f2b29b
@@ -832,23 +483,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: Ntonia
 Depends: com.spark.snowboard
-Filename: ./pool/main/history/iphoneos-arm64/c/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
-Size: 1805744
-MD5sum: 919ef445e9d121970ba4dbbf556a48c6
-SHA1: df49588c121b23d44094c42ba6c8b66da33d3339
-SHA256: 8966370be97227bfdf72dc5ca878512d8b486aac0e2c00ac064ffb1490791273
-Section: Themes主题
-Description: 一款主題,由 AD 打包成 deb 創作者是 Ntonia
-Author: Ntonia
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: Ntonia—黑季伯主题
-
-Package: com.ntonia.themes.Black
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Ntonia
-Depends: com.spark.snowboard
-Filename: ./pool/main/iphoneos-arm64/c/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
 Size: 1805744
 MD5sum: 919ef445e9d121970ba4dbbf556a48c6
 SHA1: df49588c121b23d44094c42ba6c8b66da33d3339
@@ -864,7 +499,7 @@ Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: Ntonia
 Depends: com.spark.snowboard
-Filename: ./pool/main/iphoneos-arm64/c/com.ntonia.themes.Black_1.0.1_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.ntonia.themes.Black_1.0.1_iphoneos-arm64.deb
 Size: 1805888
 MD5sum: bac298363062ca2fb7917a8992b2961f
 SHA1: 98f54bc05644406df3e2eae800dc6d4a56db0e96
@@ -881,24 +516,7 @@ Version: 0.1
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: ./pool/main/history/iphoneos-arm64/c/com.pkill.ad_0.1_iphoneos-arm64.deb
-Size: 30428
-MD5sum: 0c9f7b2aaf807a4aa5430d9f7c81a7a4
-SHA1: 8e57bbc770f045fb5de32c1c6e7293f370485e77
-SHA256: f8f7cea2c4b9f0204202aef265c256a8a0b7f97f813fda14bf98123ab3fdb736
-Section: System系统
-Description: pkill 一個強大的工具 您可以根據進程名直接殺死這個進程
- - 具體輸入 pkill -h 後查看
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: pkill
-
-Package: com.pkill.ad
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: AD
-Depends: firmware (>= 15.0)
-Filename: ./pool/main/iphoneos-arm64/c/com.pkill.ad_0.1_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.pkill.ad_0.1_iphoneos-arm64.deb
 Size: 30428
 MD5sum: 0c9f7b2aaf807a4aa5430d9f7c81a7a4
 SHA1: 8e57bbc770f045fb5de32c1c6e7293f370485e77
@@ -915,7 +533,7 @@ Version: 0.2
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: ./pool/main/iphoneos-arm64/c/com.pkill.ad_0.2_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.pkill.ad_0.2_iphoneos-arm64.deb
 Size: 30268
 MD5sum: fc923a23b2ba77a2f6d518b52e91edfc
 SHA1: b45b741cce6dba4b06bb869d1ace41e9c5d49613
@@ -933,7 +551,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 3022
 Depends: mobilesubstrate
-Filename: ./pool/main/iphoneos-arm64/c/com.plicationsnext_4.0_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.plicationsnext_4.0_iphoneos-arm64.deb
 Size: 656836
 MD5sum: 91d07fb847525854bd98352f8204abf4
 SHA1: d04087d1840d4fea3e3b18c600a0a5d1b94338b2
@@ -955,7 +573,7 @@ Version: 1.7.8
 Architecture: iphoneos-arm64
 Maintainer: xybp888
 Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
-Filename: ./pool/main/iphoneos-arm64/c/com.xybp888.callassist16.dopamine_1.7.8_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/c/com.xybp888.callassist16.dopamine_1.7.8_iphoneos-arm64.deb
 Size: 2860532
 MD5sum: 3d0ef9e26e4310bb1aec1b37e7c121cf
 SHA1: f4e12abb83d2dad180430e1dff971b31c3db0419
@@ -978,7 +596,7 @@ Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmd
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: ./pool/main/iphoneos-arm64/c/cydia_1.1.37-3_arm64.deb
+Filename: ./pool/main/arm64/c/cydia_1.1.37-3_arm64.deb
 Size: 1234204
 MD5sum: 207f742fc389b70dd64ab62a909695c9
 SHA1: f947a737522a4430df061794d43c2ea176afcf44
@@ -997,7 +615,7 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: com.spark.snowboard
-Filename: ./pool/main/iphoneos-arm64/i/iOS26e_1.1_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/i/iOS26e_1.1_iphoneos-arm64.deb
 Size: 4003632
 MD5sum: 2263a640c0a6cf4fe1d437a1ff9edbd4
 SHA1: 99fd51adeb7f69cc6a9b7ee6ba0aea456de3d04d
@@ -1013,7 +631,7 @@ Version: 1.0.0Beta
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
-Filename: ./pool/main/iphoneos-arm64/i/iperformancetweak_1.0.0Beta_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/i/iperformancetweak_1.0.0Beta_iphoneos-arm64.deb
 Size: 9064
 MD5sum: 5f1d78cc2b85034a8828015f9c52f4e9
 SHA1: 0504bd9942d0158cb1c5ac2774073e433640b8c8
@@ -1029,7 +647,7 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pool/main/iphoneos-arm64/i/itheosmaker_1.1_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/i/itheosmaker_1.1_iphoneos-arm64.deb
 Size: 1219596
 MD5sum: c07f6d62a719fa29195c619612fcddd4
 SHA1: a2aeba89175a998fdbfa799432b79afd8d0a42d0
@@ -1046,7 +664,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 4900
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
-Filename: ./pool/main/iphoneos-arm64/m/me.tomt000.stageduo_1.2_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/m/me.tomt000.stageduo_1.2_iphoneos-arm64.deb
 Size: 3073104
 MD5sum: af82d929d039e5bc1342c948ce994cb5
 SHA1: 5d4a70dde2caf3e82d632d2fb3c97d38d4ac6702
@@ -1058,26 +676,11 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: DynamicStage-灵动分屏
 
 Package: repofix
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: LF
-Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader
-Filename: ./pool/main/history/iphoneos-arm64/r/repofix.deb
-Size: 1092
-MD5sum: 4336cbbf3793a33766421920a200bc00
-SHA1: 458c1a179029afc7b841241b826c176cea206750
-SHA256: f2e1fc2a2399bd49a6aa60dc6cf9a4469ec4c17854d1450b53aa5545163bb47c
-Section: System系统
-Description: Fuck Sileo Repo Load Question.
-Author: LF
-Name: RepoFix
-
-Package: repofix
 Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader
-Filename: ./pool/main/iphoneos-arm64/r/repofix_1.0.1_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/r/repofix_1.0.1_iphoneos-arm64.deb
 Size: 1156
 MD5sum: 4c0597a8272393156b6fd5b3b91b46b8
 SHA1: df946eafca4bb0e848b98893d7b68002a9e113c6
@@ -1094,7 +697,7 @@ Version: 0.4.5.2-Next
 Architecture: iphoneos-arm64
 Maintainer: alias20, LF, AD
 Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
-Filename: ./pool/main/iphoneos-arm64/v/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/v/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
 Size: 65084
 MD5sum: fddb975dd901e698299f79c81a79064d
 SHA1: e3b8f122f4ef40a5762072e988963e23bea1a0de
@@ -1113,7 +716,7 @@ Architecture: iphoneos-arm64
 Maintainer: lzsxcl
 Installed-Size: 30360
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Filename: ./pool/main/iphoneos-arm64/x/xc.lzsxcl.o2pro_17.26.1_iphoneos-arm64.deb
+Filename: ./pool/main/arm64/x/xc.lzsxcl.o2pro_17.26.1_iphoneos-arm64.deb
 Size: 15947698
 MD5sum: 42a30ce7de6501f28b7e9e83ae25bf94
 SHA1: 85e26dd31e50116c4901658b593ee5232702936b

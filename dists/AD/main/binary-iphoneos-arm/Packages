@@ -1,0 +1,109 @@
+Package: com.12sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Installed-Size: 136.1MB
+Depends: com.empty-theos.ad
+Filename: ./pool/main/arm/c/com.12sdk.ad_1.0_iphoneos-arm.deb
+Size: 15566960
+MD5sum: ed6ae9bb8d6215bdf24e6e7e72bec8a3
+SHA1: f840a6e5a5d9d259d81d7b2932058c9bcf9a7f07
+SHA256: b81adff12daacf6c780470e021bd68ed055a455a8f42d12244db99ad381686a4
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 12 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
+Package: com.15sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Installed-Size: 601.0MB
+Depends: com.empty-theos.ad
+Filename: ./pool/main/arm/c/com.15sdk.ad_1.0_iphoneos-arm.deb
+Size: 45306400
+MD5sum: 75bc8922da7a2c1cd952ba8e58ce7ec0
+SHA1: acf9b0ead17a75a9737ff5e78aaa0ae91b8affb9
+SHA256: 4099bc0f05c83daee9f40016e530929a90c367306a2c18a886f46fe7ecb33be5
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 15 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
+Package: com.26sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Installed-Size: 262.8MB
+Depends: com.empty-theos.ad
+Filename: ./pool/main/arm/c/com.26sdk.ad_1.0_iphoneos-arm.deb
+Size: 24604028
+MD5sum: 606b7e2c250c3b5a831376440f2d7e66
+SHA1: 4b0267c8ac0b1c0a0dc8d6d755460379d31455b3
+SHA256: a29b62e307594eca09534b774a735049c89146e64850750f6293fd284486f404
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 26 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
+Package: com.9-11sdk.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Installed-Size: 175.4MB
+Depends: com.empty-theos.ad
+Filename: ./pool/main/arm/c/com.9-11sdk.ad_1.0_iphoneos-arm.deb
+Size: 20683796
+MD5sum: 14374edee0528d42dde9df88af16c8f1
+SHA1: 86ec8c8f780d50d1e5f50edcf3a0db9370b682e9
+SHA256: ec2b124565e3f59e5e26019169b05dead1dd68e3be94c541e8c338b407e50eaa
+Section: Theos/SDK
+Description: iOS Theos SDK
+  - iOS 9-11 系統的 SDK 需要 iOS Theos 才能使用
+  - 源裡有Theos
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS SDK
+
+Package: com.arm.10086.announcement.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Filename: ./pool/main/arm/c/com.arm.10086.announcement.ad_1.0_iphoneos-arm.deb
+Size: 840
+MD5sum: a169e45a99c4135baafc68af6c8598c6
+SHA1: 85207efa9f4409683179876e509969e4b4c9876a
+SHA256: 371111b23fdc986caeee5d1d5d1577c9932689a18aa0e86bd4b4d58d583248ce
+Section: 10086公告
+Description: 很抱歉本源不支持 rootful 越獄了
+ - 部分插件可能我仍然會繼續兼容 rootful 越獄, 但是大部分插件應該不會了
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: 公告
+
+Package: com.empty-theos.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Installed-Size: 603.1MB
+Filename: ./pool/main/arm/c/com.empty-theos.ad_1.0_iphoneos-arm.deb
+Size: 16728980
+MD5sum: e37e59630cd2ede6296ddd1a0c0a3529
+SHA1: 31d87d7666ea820a9f6bb4f4ad14a563a58b6a21
+SHA256: 8640d5625d4dc1ad6f99e612b40d726cc2814910bdd7980182e70ce49f0de395
+Section: Theos/SDK
+Description: iOS Theos
+  - iOS Theos 沒有SDK的theos,需要自己補齊SDK
+Author: AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS Theos
+

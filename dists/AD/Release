@@ -1,0 +1,26 @@
+Origin: iOS-AD' Repo
+Label: iOS-AD' Repo
+Suite: AD
+Codename: AD
+Version: 1.0
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e all
+Components: main
+Description: iOS-AD Repo — 提供越狱插件、自制工具及精选第三方插件
+Date: Mon, 17 Nov 2025 23:09:24 +0800
+MD5Sum:
+ 992a00dcb8e4349d25762a9ac77aa6a3 3366 main/binary-iphoneos-arm/Packages
+ ade894ad6583094258d2b9e70734e0db 1200 main/binary-iphoneos-arm/Packages.xz
+ 5d0f5e760fd9d159be6bbba40a1388d0 1385 main/binary-iphoneos-arm/Packages.bz2
+ fbac21b6497ac3aa3bb444cce3390ea3 1239 main/binary-iphoneos-arm/Packages.gz
+ 4270c022ea83a4c7de25c8c7dfce4298 28300 main/binary-iphoneos-arm64/Packages
+ 29181286b7892b8d0b587dde496576f5 9400 main/binary-iphoneos-arm64/Packages.xz
+ 18c8faedf682a35eac45d500d7dc0a10 9742 main/binary-iphoneos-arm64/Packages.bz2
+ 3a63618dfa64a18a021c1312d4ec9456 10573 main/binary-iphoneos-arm64/Packages.gz
+ c2a6e26266c277decc8550d0905f8791 530 main/binary-iphoneos-arm64e/Packages
+ 7c862b655250f73f9ae9681d5149d0e2 464 main/binary-iphoneos-arm64e/Packages.xz
+ 3ddf8b66b931ba124bfee36fed8d1db1 453 main/binary-iphoneos-arm64e/Packages.bz2
+ d217d27a484e02ab9cfdaf63f9d42d60 418 main/binary-iphoneos-arm64e/Packages.gz
+ c011288da61f029ac9a6286d5f7d6ec2 2399 main/binary-iphoneos-all/Packages
+ debd875009db94d751a0bc3e6ef6cd4c 1448 main/binary-iphoneos-all/Packages.xz
+ e2458dd9df89c86a74f0b5f1ddd9f80b 1548 main/binary-iphoneos-all/Packages.bz2
+ 0f58529918f6d5753acb741b4416b56d 1468 main/binary-iphoneos-all/Packages.gz
