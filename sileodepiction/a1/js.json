@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Optimize Jetsam and kernel parameters to enhance background task performance.\n\n通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。\n\n - Reduce priority of non-essential processes to improve system fluidity.\n\n降低非核心进程优先级，优化系统流畅度。\n\n - Modify kernel memory management parameters for better background task handling.\n\n优化内核内存管理参数，改善后台任务调度机制。",
+                    "markdown": "Optimize Jetsam and kernel parameters to enhance background task performance.\n\n通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。\n\n - Reduce priority of non-essential processes to improve system fluidity.\n\n降低非核心进程优先级，优化系统流畅度。\n\n - Modify kernel memory management parameters for better background task handling.\n\n优化内核内存管理参数，改善后台任务调度机制.\n\n交流群: 1030152896",
                     "useRawFormat": false
                 },
                 {
@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.6",
+                    "text": "1.8.1-alpha",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 11 月 2 日",
+                    "text": "2025 年 11 月 18 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,7 +80,18 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
-{
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.8更新日志",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown":修复循环模式（默认关闭）下的进程堆积与僵尸进程 <br> 首次支持RootHide <br> 修复a1ctl的pgrep报错 <br> 完善、修复a1ctl <br> 注释掉3个提升系统压力的内核参数 <br> 等 roothide 穩定後本源會上線 roothide 版本",
+                    "useRawFormat": true
+                },
+                {
                     "class": "DepictionSubheaderView",
                     "title": "1.7更新日志",
                     "useBoldText": true,
