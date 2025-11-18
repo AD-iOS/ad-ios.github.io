@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Optimize Jetsam and kernel parameters to enhance background task performance.\n\n通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。\n\n - Reduce priority of non-essential processes to improve system fluidity.\n\n降低非核心进程优先级，优化系统流畅度。\n\n - Modify kernel memory management parameters for better background task handling.\n\n优化内核内存管理参数，改善后台任务调度机制.\n\n交流群: 1030152896",
+                    "markdown": "Optimize Jetsam and kernel parameters to enhance background task performance.\n\n通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。\n\n - Reduce priority of non-essential processes to improve system fluidity.\n\n降低非核心进程优先级，优化系统流畅度。\n\n - Modify kernel memory management parameters for better background task handling.\n\n优化内核内存管理参数，改善后台任务调度机制．\n\n交流群: 1030152896",
                     "useRawFormat": false
                 },
                 {
