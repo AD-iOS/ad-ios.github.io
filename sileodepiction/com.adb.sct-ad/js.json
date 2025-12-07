@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "一款仿Android的ADB的终端插件,\n\n不过现在和Android的ADB已经有很多区别了,\n\n下载完成后终端输入adb --help查看完整命令或者查看截图",
+                    "markdown": "一款仿Android的ADB的终端插件,\n\n不过现在和Android的ADB已经有很多区别了,\n\n下载完成后终端输入adb --help查看完整命令或者查看截图, \n\n 本插件已無限期停更,具體請查看更新日誌",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -53,7 +53,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.7",
+                    "text": "2.7.1",
                     "title": "最新版本"
                 },
                 {
@@ -63,8 +63,13 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025 年 10 月 19 日",
+                    "text": "2025 年 11 月 26 日",
                     "title": "最后更新日期"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "未知",
+                    "title": "預計停更多久"
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -76,6 +81,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.7.1更新日志: ",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "本插件已無限期停更, 恢復更更新日期未知 <br> 因為課業較多, 新插件的也有一些多(這些插件還沒有被上傳到源裡), 所以時間比較緊 <br> 而且對本插件也越來越沒有靈感了, 所以就停更了",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "2.7更新日志: ",
